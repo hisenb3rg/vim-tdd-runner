@@ -29,6 +29,6 @@ endfunction
 
 function! tddrunner#SetTestFilter()
   call inputsave()
-  let g:tddrunner#filter = input("Test filter regex: ", g:tddrunner#filter)
+  let g:tddrunner#filter = input("Test filter: ", g:tddrunner#filter)
   call inputrestore()
 endfunction
