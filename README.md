@@ -1,9 +1,11 @@
 # tddrunner.vim
 
-This is a lightweight test runner for Vim/MacVim which evolved through TDD
-practice in Ruby. It is test framework agnostic and language agnostic.
+This is a lightweight test runner for Vim. It doesn't try to smart guess what
+you want to run. It simply runs what you tell it to.
 
-It allows you:
+It was evolved through TDD practice in Ruby, but is framework- and language-agnostic.
+
+It has three main features. It allows you:
 
 1. To mark a test file and run it from any window inside vim.
 
