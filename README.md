@@ -29,8 +29,8 @@ running the tests. The following config sets the mappings for rspec:
 
 ```vim
 " Two mappings to run tests independently or via test server:
-nmap <leader>t :call tddrunner#RunTest("rspec {file} (-e {filter})")<CR
-nmap <leader>r :call tddrunner#RunTest("rspec --drb {file} (-e {filter})")<CR
+nmap <leader>t :call tddrunner#RunTest("rspec {file} (-e {filter})")<CR>
+nmap <leader>r :call tddrunner#RunTest("rspec --drb {file} (-e {filter})")<CR>
 
 " Key for marking currently open file for test
 nmap <leader>m :call tddrunner#SetTestFile()<CR>
@@ -42,8 +42,8 @@ nmap <leader>f :call tddrunner#SetTestFilter()<CR>
 Another example for setting two commands for test unit and testdrb:
 
 ```vim
-nmap <leader>t :call tddrunner#RunTest("ruby -Itest {file} (-n /{filter}/)")<CR
-nmap <leader>r :call tddrunner#RunTest("testdrb -Itest {file} (-n /{filter}/)")<CR
+nmap <leader>t :call tddrunner#RunTest("ruby -Itest {file} (-n /{filter}/)")<CR>
+nmap <leader>r :call tddrunner#RunTest("testdrb -Itest {file} (-n /{filter}/)")<CR>
 ```
 
 The command string for running tests has a very simple structure and you should
